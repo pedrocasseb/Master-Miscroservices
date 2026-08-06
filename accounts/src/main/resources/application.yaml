@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: accounts
+
+  datasource:
+    username: sa
+    password:
+    url: jdbc:h2:mem:test
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
