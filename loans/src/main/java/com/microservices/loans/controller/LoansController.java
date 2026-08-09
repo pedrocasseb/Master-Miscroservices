@@ -29,7 +29,7 @@ import org.springframework.web.bind.annotation.*;
 @Validated
 public class LoansController {
 
-    private ILoansService iLoansService;
+    private final ILoansService iLoansService;
 
     @Operation(
             summary = "Create Loan REST API",

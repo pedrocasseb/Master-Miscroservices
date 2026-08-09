@@ -7,6 +7,8 @@ spring:
   h2:
     console:
       enabled: true
+      settings:
+        web-allow-others: on
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
     hibernate:
