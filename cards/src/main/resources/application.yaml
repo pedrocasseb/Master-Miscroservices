@@ -16,6 +16,12 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-
+  config:
+    import:
+      - "application_qa.yaml"
+      - "application_prod.yaml"
 server:
   port: 9000
+
+build:
+  version: "1.0"

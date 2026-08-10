@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: loans
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "3.0"

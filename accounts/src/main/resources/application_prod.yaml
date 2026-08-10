@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: accounts
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "3.0"
